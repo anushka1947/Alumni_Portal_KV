@@ -1,6 +1,6 @@
 # Alumni_Portal_DAVJJP
-MN Jha DAV Public School - Alumni Portal
-A full-stack MERN (MongoDB, Express.js, React.js, Node.js) web application built to serve as a comprehensive, modern, and engaging portal for the alumni of MN Jha DAV Public School, Jhanjharpur.
+Kendriya Vidyalaya Bhopal - Alumni Portal
+A full-stack MERN (MongoDB, Express.js, React.js, Node.js) web application built to serve as a comprehensive, modern, and engaging portal for the alumni of Kendriya Vidyalaya Bhopal.
 
 ✨ Features
 Secure Authentication: Robust JWT-based user registration and login system with a mandatory admin approval flow for new alumni.

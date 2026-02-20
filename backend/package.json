@@ -1,7 +1,7 @@
 {
     "name": "alumni-portal-backend",
     "version": "1.0.0",
-    "description": "Backend for the MN Jha DAV Public School Alumni Portal",
+    "description": "Backend for the Kendriya Vidyalaya Bhopal Alumni Portal",
     "main": "server.js",
     "scripts": {
         "start": "node server.js",

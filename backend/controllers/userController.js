@@ -275,13 +275,13 @@ exports.approveRegistration = async (req, res) => {
         try {
             await sendEmail({
                 email: user.email,
-                subject: `${user.fullName}, Welcome Home! Your MNJ DAV Alumni Account is Now Active 🎉`,
+                subject: `${user.fullName}, Welcome Home! Your KENDRIYA VIDYALAYA BHOPAL Alumni Account is Now Active 🎉`,
                 message: `
     <div style="font-family:Segoe UI, Roboto, sans-serif; max-width:600px; margin:auto; padding:20px; border-radius:8px; background:#f9f9f9; color:#333;">
       
       <h2 style="color:#007bff;">Dear ${user.fullName},</h2>
 
-      <p style="font-size:16px;">🎉 <strong>It's official</strong>, your MNJ DAV Alumni Portal account has been <span style="color:green;"><strong>approved!</strong></span></p>
+      <p style="font-size:16px;">🎉 <strong>It's official</strong>, your KENDRIYA VIDYALAYA BHOPAL Alumni Portal account has been <span style="color:green;"><strong>approved!</strong></span></p>
 
       <p style="font-size:15px;">For years we had no place to connect. No platform to say:  
         <br><em>"Arey uska number hai kya?"</em><br>  
@@ -289,7 +289,7 @@ exports.approveRegistration = async (req, res) => {
         But not anymore.
       </p>
 
-      <p style="font-size:15px;">Now, we’ve got a digital *school corridor* where every DAVian, young or grown, nostalgic or curious—can find their batchmates, long-lost friends, or that one bench partner they never dared message again. 😅</p>
+      <p style="font-size:15px;">Now, we’ve got a digital *school corridor* where every KVIan, young or grown, nostalgic or curious—can find their batchmates, long-lost friends, or that one bench partner they never dared message again. 😅</p>
 
       <hr style="margin:20px 0; border:0; border-top:1px solid #ddd;" />
 
@@ -299,7 +299,7 @@ exports.approveRegistration = async (req, res) => {
         <li><strong>💬 Real-time Chats:</strong> Like old tiffin gossip sessions, but online.</li>
         <li><strong>📰 Community Feed:</strong> Job openings, memories, memes – sab kuch!</li>
         <li><strong>🎂 Birthday Cards:</strong> Kyunki birthday pe wish na mile toh dukh hota hai!</li>
-        <li><strong>👤 Your Profile:</strong> Show what DAVians are up to (ya kya karne wale hai 👀)</li>
+        <li><strong>👤 Your Profile:</strong> Show what KVians are up to (ya kya karne wale hai 👀)</li>
       </ul>
 
       <p style="margin:25px 0;">
@@ -315,7 +315,7 @@ exports.approveRegistration = async (req, res) => {
       <p style="font-size:15px;">Welcome back to the family.</p>
 
       <p style="font-weight:bold; color:#444;">– With nostalgia and warmth,<br>  
-      Your MNJ DAV Alumni Team</p>
+      Your KENDRIYA VIDYALAYA BHOPAL Alumni Team</p>
 
       <hr style="margin:30px 0; border:0; border-top:1px solid #ddd;" />
 
